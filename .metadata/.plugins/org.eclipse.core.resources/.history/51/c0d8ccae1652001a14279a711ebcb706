@@ -1,0 +1,10 @@
+package com.bridgelabz.selenium.apptest.apptest.sitetest;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Gmail {
+
+	WebDriver driver = new ChromeDriver();
+	
+}

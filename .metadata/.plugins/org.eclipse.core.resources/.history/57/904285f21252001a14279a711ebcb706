@@ -1,0 +1,18 @@
+package com.bridgelabz.selenium.apptest.apptest.sitetest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Facebook {
+
+	
+	public static void fbLogin() throws InterruptedException {
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://facebook.com");
+		driver.findElement(By.id("email")).sendKeys("helloworld@gmail.com");
+		driver.findElement(By.id("pass")).sendKeys("hellowworld");
+		Thread.sleep(2000);
+		driver.findElement(By.id("loginbutton")).click();
+	}
+}

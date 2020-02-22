@@ -1,0 +1,17 @@
+package com.bridgelabz.selenium.apptest.apptest.sitetest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Google {
+
+	WebDriverManager.chromedriver().setup();
+  WebDriver driver = new ChromeDriver();
+  driver.get("https://facebook.com/");
+  WebElement element = driver.findElement(By.name("email"));
+  element.sendKeys("Unbox therapy");
+  Thread.sleep(2000);
+  element.submit();
+}

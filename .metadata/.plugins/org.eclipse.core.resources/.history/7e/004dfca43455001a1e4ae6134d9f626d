@@ -1,0 +1,42 @@
+package com.bridgelabz.selenium.apptest.apptest.sitetest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Irctc {
+
+	public static void irctc() throws InterruptedException {
+	WebDriverManager.chromedriver().setup();
+	WebDriver driver = new ChromeDriver();
+	driver.manage().window().maximize();
+	JavascriptExecutor je = (JavascriptExecutor) driver;
+	Thread.sleep(500);
+	driver.get("https://www.irctc.co.in/nget/profile/user-registration");
+	Thread.sleep(500);
+	je.executeScript("window.scrollBy(0,500)");
+	Thread.sleep(500);
+	driver.findElement(By.id("userName")).sendKeys("TestUser1258");
+	Thread.sleep(500);
+	driver.findElement(By.id("usrPwd")).sendKeys("TestUserPassword");
+	Thread.sleep(500);
+	driver.findElement(By.id("cnfUsrPwd")).sendKeys("TestUserPassword");
+	Thread.sleep(500);
+	je.executeScript("document.getElementById('userName').value=''"); //clearing the value
+	Thread.sleep(500);
+	je.executeScript("document.getElementById('userName').value='WeAreTestingIt'");
+	Thread.sleep(500);
+	driver.findElement(By.xpath("//label[@class='ng-tns-c10-4 ui-dropdown-label ui-inputtext ui-corner-all ui-placeholder ng-star-inserted']")).click();
+	Thread.sleep(500);
+	driver.findElement(By.xpath("//span[contains(text(),'Who was your Childhood hero?')]")).click();
+	Thread.sleep(500);
+	driver.findElement(By.xpath("//input[@placeholder='Security Answer']")).sendKeys("Hritik Roshan");
+	Thread.sleep(500);
+	je.executeScript("window.scrollBy(0,500)");
+			
+			
+	}
+}

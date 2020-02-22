@@ -1,0 +1,25 @@
+package com.bridgelabz.selenium.apptest.apptest;
+
+import java.awt.AWTException;
+
+import com.bridgelabz.selenium.apptest.apptest.sitetest.Facebook;
+import com.bridgelabz.selenium.apptest.apptest.sitetest.Gmail;
+import com.bridgelabz.selenium.apptest.apptest.sitetest.Google;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args ) throws InterruptedException, AWTException
+    {
+    	
+    	Facebook.fbLogin();
+//    	Gmail.gmailLogin();
+//        Google.mouse_and_keyboard_movement();
+        
+        
+//        driver.close();
+    }
+}

@@ -1,0 +1,36 @@
+package com.bridgelabz.selenium.apptest.apptest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.bridgelabz.selenium.apptest.apptest.sitetest.Facebook;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args ) throws InterruptedException
+    {
+//        String projectPath  = System.getProperty("user.dir");
+//        System.setProperty("webdriver.chrome.driver", "/home/user/eclipse-workspace/apptest/Driver/chromedriver/chromedriver");
+//    	WebDriverManager.chromedriver().setup();
+//        WebDriver driver = new ChromeDriver();
+//        driver.get("https://facebook.com/");
+//        WebElement element = driver.findElement(By.name("email"));
+//        element.sendKeys("Unbox therapy");
+//        Thread.sleep(2000);
+//        element.submit();
+    	
+    	Facebook.fbLogin();
+        
+        
+        
+//        driver.close();
+    }
+}

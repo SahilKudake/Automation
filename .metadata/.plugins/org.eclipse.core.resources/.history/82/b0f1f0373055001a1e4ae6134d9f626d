@@ -1,0 +1,36 @@
+package com.bridgelabz.selenium.apptest.apptest.sitetest;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Irctc {
+
+	public static void irctc() throws AWTException, InterruptedException {
+	WebDriverManager.chromedriver().setup();
+	WebDriver driver = new ChromeDriver();
+	Robot robot = new Robot();
+	
+	driver.get("https://www.irctc.co.in/nget/profile/user-registration");
+	Thread.sleep(500);
+	driver.findElement(By.id("userName")).sendKeys("TestUser");
+	Thread.sleep(500);
+	driver.findElement(By.id("usrPwd")).sendKeys("TestUserPassword");
+	Thread.sleep(500);
+	driver.findElement(By.id("cnfUsrPwd"));
+	Thread.sleep(500);
+	driver.findElement(By.xpath("//label[@class='ng-tns-c10-4 ui-dropdown-label ui-inputtext ui-corner-all ui-placeholder ng-star-inserted']")).click();
+	Thread.sleep(500);
+	JavascriptExecutor je = (JavascriptExecutor) driver;
+	je.executeScript("window.scrollBy(0,1000)");
+			
+			
+	}
+}

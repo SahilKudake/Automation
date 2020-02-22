@@ -1,0 +1,21 @@
+package com.bridgelabz.selenium.apptest.apptest;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+//        String projectPath  = System.getProperty("user.dir");
+//        System.setProperty("webdriver.chrome.driver", "/home/user/eclipse-workspace/apptest/Driver/chromedriver/chromedriver");
+    	WebDriverManager.chromedriver().setup();
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://youtube.com/");
+        driver.close();
+    }
+}
