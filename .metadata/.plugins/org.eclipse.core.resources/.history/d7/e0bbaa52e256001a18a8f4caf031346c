@@ -23,7 +23,7 @@ public class Gooogle {
 		action.moveToElement(element).perform();
 		Thread.sleep(1000);
 		WebElement menu = driver.findElement(By.linkText("हिन्दी"));
-		Thread.sleep(1000);
+		Thread.sleep(500);
 		menu.click();
 	}
 }
