@@ -2273,3 +2273,28 @@ org.eclipse.core.runtime.CoreException: Launch configuration App references clos
 2020-02-22 15:10:51,247 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/eclipse-workspace/apptest/src/main/resources
 2020-02-22 15:10:51,275 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-02-22 15:10:51,276 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/eclipse-workspace/apptest/src/test/resources
+2020-02-24 09:08:48,521 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-02-24 10:19:37,454 [Worker-17: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-24 10:19:37,477 [Worker-17: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/eclipse-workspace/apptest/src/main/resources
+2020-02-24 10:19:37,552 [Worker-17: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-24 10:19:37,699 [Worker-17: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/eclipse-workspace/apptest/src/test/resources
+2020-02-24 11:19:01,839 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-24 11:19:01,959 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/eclipse-workspace/apptest/src/main/resources
+2020-02-24 11:19:01,961 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-24 11:19:01,962 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/eclipse-workspace/apptest/src/test/resources
+2020-02-24 11:28:35,238 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-24 11:28:35,238 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/eclipse-workspace/apptest/src/main/resources
+2020-02-24 11:28:35,281 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-24 11:28:35,288 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/eclipse-workspace/apptest/src/test/resources
+2020-02-24 11:28:54,347 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-24 11:28:54,356 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/eclipse-workspace/apptest/src/main/resources
+2020-02-24 11:28:54,396 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-24 11:28:54,397 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/eclipse-workspace/apptest/src/test/resources
+2020-02-24 11:29:30,343 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-24 11:29:30,356 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/eclipse-workspace/apptest/src/main/resources
+2020-02-24 11:29:30,384 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-24 11:29:30,384 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/eclipse-workspace/apptest/src/test/resources
+2020-02-24 11:30:53,351 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-24 11:30:53,352 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/eclipse-workspace/apptest/src/main/resources
+2020-02-24 11:30:53,355 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-24 11:30:53,356 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/eclipse-workspace/apptest/src/test/resources

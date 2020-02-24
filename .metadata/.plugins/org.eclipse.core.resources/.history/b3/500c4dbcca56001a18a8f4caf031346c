@@ -7,7 +7,6 @@ import com.bridgelabz.selenium.apptest.apptest.sitetest.Amazon;
 import com.bridgelabz.selenium.apptest.apptest.sitetest.Facebook;
 import com.bridgelabz.selenium.apptest.apptest.sitetest.Gmail;
 import com.bridgelabz.selenium.apptest.apptest.sitetest.Google;
-import com.bridgelabz.selenium.apptest.apptest.sitetest.Gooogle;
 import com.bridgelabz.selenium.apptest.apptest.sitetest.Irctc;
 
 /**
@@ -24,9 +23,7 @@ public class App
 //        Google.mouse_and_keyboard_movement();
 //    	Irctc.irctc();
         
-//        Amazon.amazon();
+        Amazon.amazon();
 //        driver.close();
-        
-        Gooogle.mouse();
     }
 }
