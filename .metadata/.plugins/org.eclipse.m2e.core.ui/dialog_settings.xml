@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/user/eclipse-workspace/apptest"/>
 			<item value="/home/user/eclipse-workspace/SikuliWithSelenium/src/main/java/com/bridgelabz/GoogleTest.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,14 +27,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.bridgelabz.selenium.SeleniumBasics"/>
 			<item value="com.bridgelabz.selenium.apptest.apptest"/>
 			<item value="com.bridgelabz.SikuliWithSelenium"/>
 		</list>
 		<list key="groupId">
+			<item value="com.bridgelabz.selenium"/>
 			<item value="com.bridgelabz.selenium.apptest"/>
 			<item value="com.bridgelabz"/>
 		</list>
 		<list key="artifactId">
+			<item value="SeleniumBasics"/>
 			<item value="apptest"/>
 			<item value="SikuliWithSelenium"/>
 		</list>

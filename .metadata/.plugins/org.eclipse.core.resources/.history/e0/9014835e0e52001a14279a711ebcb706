@@ -1,8 +1,0 @@
-package com.bridgelabz.selenium.apptest.apptest.sitetest;
-
-import org.openqa.selenium.By;
-
-public class Gmail {
-
-	
-}

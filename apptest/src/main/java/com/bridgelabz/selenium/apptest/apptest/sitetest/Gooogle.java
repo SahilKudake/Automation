@@ -25,5 +25,9 @@ public class Gooogle {
 		WebElement menu = driver.findElement(By.linkText("हिन्दी"));
 		Thread.sleep(1000);
 		menu.click();
+		
+		String windowHandle = driver.getWindowHandle();
+		
+		System.out.println(windowHandle);
 	}
 }

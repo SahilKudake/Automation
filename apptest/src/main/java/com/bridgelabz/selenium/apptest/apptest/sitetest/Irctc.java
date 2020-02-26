@@ -56,7 +56,7 @@ public class Irctc {
 	Thread.sleep(1000);
 	driver.findElement(By.id("M")).click();
 	Thread.sleep(1000);
-	je.executeScript("window.scrollBy(0,400)");
+	je.executeScript("window.scrollBy(0,400)");	
 	Thread.sleep(1000);
 	//calendar
 	driver.findElement(By.xpath("//input[@class='ng-tns-c11-6 ui-inputtext ui-widget ui-state-default ui-corner-all ng-star-inserted']")).click();
