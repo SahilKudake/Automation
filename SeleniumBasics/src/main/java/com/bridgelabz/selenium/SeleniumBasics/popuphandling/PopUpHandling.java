@@ -78,9 +78,9 @@ public class PopUpHandling extends Base {
 	public static void main(String[] args) throws InterruptedException {
 		base = new Base();
 //		fileUpld();
-//		fileDownload();
+		fileDownload();
 //		promptHandling();
-		hiddenDivisionPopUp();
+//		hiddenDivisionPopUp();
 
 	}
 

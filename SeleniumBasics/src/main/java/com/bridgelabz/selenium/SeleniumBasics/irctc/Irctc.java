@@ -101,7 +101,7 @@ public class Irctc extends Base {
 		Thread.sleep(1000);
 		driver.findElement(By.id("resPhone")).sendKeys("9987564256");
 		Thread.sleep(1000);
-		driver.findElement(By.xpath("//div[19]//div[2]//input[1]")).click();
+		
 				
 		}
 	
