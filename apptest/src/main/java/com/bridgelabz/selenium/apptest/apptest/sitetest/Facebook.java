@@ -25,13 +25,14 @@ public class Facebook {
 		driver.manage().window().maximize();
 		driver.navigate().refresh();
 		Thread.sleep(500);
+		System.out.println(driver.getTitle());
 		driver.findElement(By.id("email")).sendKeys("8109555221");
 		driver.findElement(By.id("pass")).sendKeys("testdata@1234");
 		Thread.sleep(2000);
-		TakesScreenshot ts = (TakesScreenshot) driver;
-		File srcFile = ts.getScreenshotAs(OutputType.FILE);
-		File destFile = new File("/home/user/eclipse-workspace/apptest/screenshot/actiTIMELoginPage.png");
-		FileUtils.copyFile(srcFile, destFile);
+		//TakesScreenshot ts = (TakesScreenshot) driver;
+		//File srcFile = ts.getScreenshotAs(OutputType.FILE);
+		//File destFile = new File("/home/user/eclipse-workspace/apptest/screenshot/actiTIMELoginPage.png");
+		//FileUtils.copyFile(srcFile, destFile);
 		driver.findElement(By.id("loginbutton")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.id("userNavigationLabel")).click();

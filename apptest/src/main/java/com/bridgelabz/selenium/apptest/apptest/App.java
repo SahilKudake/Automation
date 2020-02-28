@@ -22,7 +22,7 @@ public class App
     public static void main( String[] args ) throws InterruptedException, AWTException, IOException
     {
     	
-//    	Facebook.fbLogin();
+    	Facebook.fbLogin();
 //    	Gmail.gmailLogin();
 //        Google.mouse_and_keyboard_movement();
 //    	Irctc.irctc();
@@ -31,6 +31,6 @@ public class App
 //        driver.close();
 //          FileUpload.FileUpld();
 //        Gooogle.mouse();
-    	ChromeFileDownload.fileDownload();
+//    	ChromeFileDownload.fileDownload();
     }
 }
