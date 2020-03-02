@@ -12,7 +12,6 @@ import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
 public class ActionClass extends Base {
 
-	static Base base;
 
 	public static void dragAndDrop() throws InterruptedException {
 
@@ -56,7 +55,8 @@ public class ActionClass extends Base {
 	}
 
 	public static void main(String[] args) throws InterruptedException, AWTException {
-		base = new Base();
+		@SuppressWarnings("unused")
+		Base base = new Base();
 //		dragAndDrop();
 //		mouseHover();
 		contextClickUsingActions();
