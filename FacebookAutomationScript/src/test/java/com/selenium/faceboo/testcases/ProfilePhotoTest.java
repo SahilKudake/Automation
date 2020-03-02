@@ -11,6 +11,12 @@ import com.selenium.facebook.pom.facebookautomationscript.pages.HomePage;
 import com.selenium.facebook.pom.facebookautomationscript.pages.Login;
 import com.selenium.facebook.pom.facebookautomationscript.pages.ProfilePage;
 
+/**
+ * Purpose : Program to test navigation to profile page and change over of profile photo
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class ProfilePhotoTest extends Base {
 
 	Login login;

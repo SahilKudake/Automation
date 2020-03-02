@@ -6,6 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.selenium.facebook.pom.facebookautomationscript.base.Base;
 
+/**
+ * Purpose : Program to login to facebook
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class Login extends Base {
 
 	@FindBy(id = "email")

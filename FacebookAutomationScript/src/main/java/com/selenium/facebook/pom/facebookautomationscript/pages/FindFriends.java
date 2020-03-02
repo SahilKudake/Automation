@@ -6,6 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.selenium.facebook.pom.facebookautomationscript.base.Base;
 
+/**
+ * Purpose : Program to perform find friends operation on facebook page
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class FindFriends extends Base {
 
 	@FindBy(id = "findFriendsNav")

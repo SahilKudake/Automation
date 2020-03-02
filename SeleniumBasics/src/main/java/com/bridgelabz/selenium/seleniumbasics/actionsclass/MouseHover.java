@@ -6,6 +6,12 @@ import org.openqa.selenium.interactions.Actions;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+/**
+ * Purpose : To test the mouse hover operation
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class MouseHover extends Base {
 
 	public static void mouseHover() throws InterruptedException {

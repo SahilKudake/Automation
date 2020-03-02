@@ -10,6 +10,12 @@ import com.selenium.facebook.pom.facebookautomationscript.base.Base;
 import com.selenium.facebook.pom.facebookautomationscript.pages.HomePage;
 import com.selenium.facebook.pom.facebookautomationscript.pages.Login;
 
+/**
+ * Purpose : Program to test the login functionality of facebook page
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class LoginTest extends Base {
 
 	Login login;

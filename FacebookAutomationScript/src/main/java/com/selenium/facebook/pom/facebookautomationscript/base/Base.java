@@ -13,6 +13,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+/**
+ * Purpose : Program to select browser and its drivers as user specified
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class Base {
 
 	public static WebDriver driver;

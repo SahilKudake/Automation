@@ -4,6 +4,13 @@ import java.util.Set;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+/**
+ * Purpose : Program to close specific window of browser
+ * 
+ * @author Sahil Kudake
+ *
+ */
+
 public class CloseSpecifiedBrowser extends Base {
 
 	public static void closeSpecifiedBrowser() throws InterruptedException {

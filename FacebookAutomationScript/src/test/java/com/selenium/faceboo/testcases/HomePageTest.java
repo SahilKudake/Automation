@@ -11,9 +11,14 @@ import com.selenium.facebook.pom.facebookautomationscript.pages.HomePage;
 import com.selenium.facebook.pom.facebookautomationscript.pages.Login;
 import com.selenium.facebook.pom.facebookautomationscript.pages.ProfilePage;
 
+/**
+ * Purpose : Program to test the navigation on home page of facebook
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class HomePageTest extends Base {
-	
-	
+
 	Login login;
 	HomePage homePage;
 	FindFriends findFriends;

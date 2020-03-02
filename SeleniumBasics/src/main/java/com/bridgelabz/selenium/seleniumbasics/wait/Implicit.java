@@ -6,11 +6,17 @@ import org.openqa.selenium.By;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+/**
+ * Purpose : Program to add wait time in a process
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class Implicit extends Base {
 
-	static Base base;
 	public static void main(String[] args) throws InterruptedException {
-		base = new Base();
+		@SuppressWarnings("unused")
+		Base base = new Base();
 		driver.get("https://www.google.com");
 		
 		driver.findElement(By.name("q")).sendKeys("Waited for 10 seconds");

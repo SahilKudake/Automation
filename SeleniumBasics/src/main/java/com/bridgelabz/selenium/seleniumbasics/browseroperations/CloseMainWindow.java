@@ -4,6 +4,12 @@ import java.util.Set;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+/**
+ * Purpose : Program to close main window of browser
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class CloseMainWindow extends Base {
 
 	public static void closeMainWindowOnly() throws InterruptedException {
@@ -23,6 +29,7 @@ public class CloseMainWindow extends Base {
 			}
 		}
 	}
+
 	public static void main(String[] args) throws InterruptedException {
 		@SuppressWarnings("unused")
 		Base base = new Base();

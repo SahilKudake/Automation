@@ -11,6 +11,12 @@ import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+/**
+ * Purpose : Program to download a file from website
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class Filedwnld extends Base {
 
 	public static void fileDownload() throws InterruptedException {
@@ -23,7 +29,7 @@ public class Filedwnld extends Base {
 		options.setExperimentalOption("prefs", chromePref);
 		options.addArguments("--test-type");
 		options.addArguments("--disable-extensions");
-		
+
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://www.seleniumhq.org/download/");
 		driver.manage().window().maximize();
@@ -32,6 +38,7 @@ public class Filedwnld extends Base {
 		System.out.println("Downloaded");
 
 	}
+
 	public static void main(String[] args) throws InterruptedException {
 		@SuppressWarnings("unused")
 		Base base = new Base();

@@ -4,6 +4,12 @@ import org.openqa.selenium.By;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+/**
+ * Purpose : Program to upload file on website
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class FileUpld extends Base {
 
 	public static void fileUpld() throws InterruptedException {

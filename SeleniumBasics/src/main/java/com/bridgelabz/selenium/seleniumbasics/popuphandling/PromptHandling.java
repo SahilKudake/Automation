@@ -5,6 +5,12 @@ import org.openqa.selenium.By;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+/**
+ * Purpose : Program to handle prompts of website
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class PromptHandling extends Base {
 	public static void promptHandling() throws InterruptedException {
 		driver.get("http://www.tizag.com/javascriptT/javascriptprompt.php");

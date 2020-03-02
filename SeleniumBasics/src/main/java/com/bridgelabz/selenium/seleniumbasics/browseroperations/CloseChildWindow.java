@@ -4,6 +4,12 @@ import java.util.Set;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+/**
+ * Purpose : Program to close child window of browser
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class CloseChildWindow extends Base {
 
 	public static void closeChildWindows() throws InterruptedException {

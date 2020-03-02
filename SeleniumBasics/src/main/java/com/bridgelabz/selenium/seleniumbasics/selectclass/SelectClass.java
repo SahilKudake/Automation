@@ -8,12 +8,18 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+/**
+ * Purpose : Program to select values from checkbox and combobox using select class
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class SelectClass extends Base {
 
-	static Base base;
 	
 	public static void main(String[] args) throws InterruptedException {
-		base = new Base();
+		@SuppressWarnings("unused")
+		Base base = new Base();
 		driver.get("file:///home/admin1/eclipse-workspace/SeleniumBasics/breakfastList.html");
 		WebElement element = driver.findElement(By.id("menu"));
 		Select select = new Select(element);
@@ -33,8 +39,7 @@ public class SelectClass extends Base {
 		List<WebElement> allOptions = select.getAllSelectedOptions();
 		
 		for(WebElement we : allOptions) {
-			System.out.println(we.getText());
-			
+			System.out.println(we.getText());	
 		}
 		
 		boolean multiple = select.isMultiple();
@@ -50,8 +55,6 @@ public class SelectClass extends Base {
 			select.deselectByVisibleText("POORI");
 		}
 		
-		
-
 	}
 
 }

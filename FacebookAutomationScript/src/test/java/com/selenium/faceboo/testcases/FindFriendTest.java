@@ -9,6 +9,12 @@ import com.selenium.facebook.pom.facebookautomationscript.pages.FindFriends;
 import com.selenium.facebook.pom.facebookautomationscript.pages.HomePage;
 import com.selenium.facebook.pom.facebookautomationscript.pages.Login;
 
+/**
+ * Purpose : Program to test the find friend operation on facebook
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class FindFriendTest extends Base {
 
 	Login login;

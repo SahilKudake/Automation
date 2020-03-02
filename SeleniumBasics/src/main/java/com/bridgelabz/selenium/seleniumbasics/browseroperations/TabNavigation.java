@@ -6,6 +6,13 @@ import org.openqa.selenium.By;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+
+/**
+ * Purpose : To check the navigation between tabs of browser
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class TabNavigation extends Base {
 
 	public static void navigateBetweenTabs() throws InterruptedException {

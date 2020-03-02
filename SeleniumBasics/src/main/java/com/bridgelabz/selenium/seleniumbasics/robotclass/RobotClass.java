@@ -10,9 +10,14 @@ import org.openqa.selenium.interactions.Actions;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+/**
+ * Purpose : Program to test keyboard clicks and mouse movements using robot and action class
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class RobotClass extends Base {
 
-//	used keyPress, keyRelease, Action class, browser navigations
 
 	static Base base;
 	public static void main(String[] args) throws InterruptedException, AWTException {

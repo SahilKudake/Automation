@@ -10,6 +10,12 @@ import org.openqa.selenium.TakesScreenshot;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+/**
+ * Purpose : Program to take screenshot of web page
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class Screenshot extends Base {
 
 	public static void takeScreenshot() throws InterruptedException, IOException {

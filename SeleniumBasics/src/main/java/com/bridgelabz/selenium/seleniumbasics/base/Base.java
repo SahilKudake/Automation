@@ -5,6 +5,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+/**
+ * Purpose : Base class to set up browser
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class Base {
 
 	public static WebDriver driver;

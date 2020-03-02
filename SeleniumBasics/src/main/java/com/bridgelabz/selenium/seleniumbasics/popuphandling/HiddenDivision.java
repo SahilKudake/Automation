@@ -6,6 +6,12 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+/**
+ * Purpose : Program to handle hidden division pop up
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class HiddenDivision extends Base {
 	public static void hiddenDivisionPopUp() throws InterruptedException {
 		ChromeOptions option = new ChromeOptions();

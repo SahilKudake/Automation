@@ -6,6 +6,12 @@ import org.openqa.selenium.interactions.Actions;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+/**
+ * Purpose : To check the drag and drop functionality on web application
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class DragDrop extends Base {
 
 	public static void dragAndDrop() throws InterruptedException {

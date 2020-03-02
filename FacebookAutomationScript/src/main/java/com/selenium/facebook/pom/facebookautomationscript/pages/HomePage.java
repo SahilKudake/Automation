@@ -6,6 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.selenium.facebook.pom.facebookautomationscript.base.Base;
 
+/**
+ * Purpose : Program to navigate to home page of facebook
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class HomePage extends Base {
 
 	@FindBy(xpath = "//a[contains(text(),'Home')]")

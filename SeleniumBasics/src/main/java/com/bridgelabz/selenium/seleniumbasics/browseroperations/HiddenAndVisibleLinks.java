@@ -7,6 +7,12 @@ import org.openqa.selenium.WebElement;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+/**
+ * Purpose : Program to check and count hidden and visible links on web application
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class HiddenAndVisibleLinks extends Base {
 
 	public static void hiddenAndVisibleLinks() {

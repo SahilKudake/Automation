@@ -13,6 +13,12 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.selenium.facebook.pom.facebookautomationscript.base.Base;
 
+/**
+ * Purpose : Program to navigate to profile page and change the profile photo
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class ProfilePage extends Base {
 
 	@FindBy(xpath = "//a[@class='_2s25 _606w']")

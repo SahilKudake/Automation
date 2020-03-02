@@ -4,9 +4,16 @@ import org.openqa.selenium.By;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
+/**
+ * Purpose : program to check the locators present in facebook website
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class Locators extends Base {
 
 	static Base base;
+
 	public static void main(String[] args) throws InterruptedException {
 		base = new Base();
 		driver.get("https://www.facebook.com");
