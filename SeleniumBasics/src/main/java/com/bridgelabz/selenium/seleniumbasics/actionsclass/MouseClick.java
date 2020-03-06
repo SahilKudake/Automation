@@ -22,6 +22,7 @@ public class MouseClick extends Base {
 		String windowHandle = driver.getWindowHandle();
 		System.out.println(windowHandle);
 	}
+
 	public static void main(String[] args) throws InterruptedException {
 		Base base = new Base();
 		mouseClick();

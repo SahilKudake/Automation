@@ -24,6 +24,7 @@ public class MouseHover extends Base {
 		WebElement cloudApp = driver.findElement(By.linkText("Cloud Applications"));
 		action.moveToElement(cloudApp).click().perform();
 	}
+
 	public static void main(String[] args) throws InterruptedException {
 		@SuppressWarnings("unused")
 		Base base = new Base();

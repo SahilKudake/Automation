@@ -11,15 +11,16 @@ import org.openqa.selenium.interactions.Actions;
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
 /**
- * Purpose : Program to test keyboard clicks and mouse movements using robot and action class
+ * Purpose : Program to test keyboard clicks and mouse movements using robot and
+ * action class
  * 
  * @author Sahil Kudake
  *
  */
 public class RobotClass extends Base {
 
-
 	static Base base;
+
 	public static void main(String[] args) throws InterruptedException, AWTException {
 		base = new Base();
 		driver.get("https://www.google.com");
@@ -57,7 +58,7 @@ public class RobotClass extends Base {
 		robot.keyPress(KeyEvent.VK_UP);
 		robot.keyRelease(KeyEvent.VK_UP);
 		Thread.sleep(500);
-		
+
 		Actions action = new Actions(driver);
 		WebElement ele = driver.findElement(By.name("q"));
 		action.moveToElement(ele);
@@ -113,7 +114,6 @@ public class RobotClass extends Base {
 		Thread.sleep(2000);
 		driver.get("https://www.myntra.com");
 
-		
 	}
 
 }

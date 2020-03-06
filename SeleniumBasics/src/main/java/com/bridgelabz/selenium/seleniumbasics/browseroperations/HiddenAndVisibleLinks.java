@@ -8,7 +8,8 @@ import org.openqa.selenium.WebElement;
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
 /**
- * Purpose : Program to check and count hidden and visible links on web application
+ * Purpose : Program to check and count hidden and visible links on web
+ * application
  * 
  * @author Sahil Kudake
  *
@@ -33,6 +34,7 @@ public class HiddenAndVisibleLinks extends Base {
 		System.out.println("Total visible links: " + visibleLinks);
 		System.out.println("Total hidden links: " + hiddenLinks);
 	}
+
 	public static void main(String[] args) {
 		@SuppressWarnings("unused")
 		Base base = new Base();

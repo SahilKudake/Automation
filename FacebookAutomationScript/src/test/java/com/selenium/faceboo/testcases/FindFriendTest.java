@@ -20,7 +20,7 @@ public class FindFriendTest extends Base {
 	Login login;
 	HomePage homePage;
 	FindFriends findFriends;
-	
+
 	@BeforeMethod
 	public void setup() throws InterruptedException {
 		Initialize();
@@ -33,12 +33,12 @@ public class FindFriendTest extends Base {
 	public void find_friend() {
 		findFriends.click_find_friends();
 	}
-	
+
 	@Test(priority = 2)
 	public void add_friend() {
 		findFriends.click_add_friend();
 	}
-	
+
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

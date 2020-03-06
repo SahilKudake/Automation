@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
-
 /**
  * Purpose : To check the navigation between tabs of browser
  * 
@@ -33,6 +32,7 @@ public class TabNavigation extends Base {
 		driver.findElement(By.id("login_Layer")).click();
 
 	}
+
 	public static void main(String[] args) throws InterruptedException {
 		@SuppressWarnings("unused")
 		Base base = new Base();

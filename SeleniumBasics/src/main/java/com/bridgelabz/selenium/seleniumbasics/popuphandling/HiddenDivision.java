@@ -25,6 +25,7 @@ public class HiddenDivision extends Base {
 		Thread.sleep(3000);
 		driver.findElement(By.linkText("24")).click();
 	}
+
 	public static void main(String[] args) throws InterruptedException {
 		@SuppressWarnings("unused")
 		Base base = new Base();

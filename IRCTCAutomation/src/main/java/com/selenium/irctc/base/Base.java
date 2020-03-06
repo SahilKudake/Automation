@@ -19,5 +19,6 @@ public class Base {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		driver.get("https://www.irctc.co.in/nget/profile/user-registration");
 	}
 }

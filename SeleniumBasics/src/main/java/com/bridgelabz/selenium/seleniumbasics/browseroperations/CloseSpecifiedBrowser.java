@@ -30,6 +30,7 @@ public class CloseSpecifiedBrowser extends Base {
 		}
 
 	}
+
 	public static void main(String[] args) throws InterruptedException {
 		@SuppressWarnings("unused")
 		Base base = new Base();

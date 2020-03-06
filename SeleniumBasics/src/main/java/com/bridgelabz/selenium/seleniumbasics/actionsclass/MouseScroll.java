@@ -10,12 +10,13 @@ public class MouseScroll extends Base {
 		driver.get("https://www.amazon.in");
 		Thread.sleep(1000);
 		JavascriptExecutor je = (JavascriptExecutor) driver;
-		for(int i = 1; i<5; i++) {
+		for (int i = 1; i < 5; i++) {
 			je.executeScript("window.scrollBy(0,1000)");
 			Thread.sleep(500);
 		}
 		driver.quit();
 	}
+
 	public static void main(String[] args) throws InterruptedException {
 		@SuppressWarnings("unused")
 		Base base = new Base();

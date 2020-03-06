@@ -11,7 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 import com.bridgelabz.selenium.seleniumbasics.base.Base;
 
 /**
- * Purpose : test to open the link in new tab using Actions class 
+ * Purpose : Test to open the link in new tab using Actions class
  * 
  * @author Sahil Kudake
  *
@@ -33,6 +33,7 @@ public class ContextClick extends Base {
 		r.keyRelease(KeyEvent.VK_W);
 
 	}
+
 	public static void main(String[] args) throws AWTException, InterruptedException {
 		@SuppressWarnings("unused")
 		Base base = new Base();

@@ -27,6 +27,7 @@ public class DragDrop extends Base {
 		Thread.sleep(2000);
 		actions.dragAndDrop(block2, block1).perform();
 	}
+
 	public static void main(String[] args) throws InterruptedException {
 		@SuppressWarnings("unused")
 		Base base = new Base();

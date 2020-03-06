@@ -18,7 +18,6 @@ public class Irctc extends Base {
 
 				JavascriptExecutor je = (JavascriptExecutor) driver;
 				Thread.sleep(100);
-				driver.get("https://www.irctc.co.in/nget/profile/user-registration");
 				Thread.sleep(2000);
 				je.executeScript("window.scrollBy(0,500)");
 				Thread.sleep(1000);

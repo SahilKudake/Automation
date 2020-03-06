@@ -20,6 +20,7 @@ public class FileUpld extends Base {
 		driver.findElement(By.xpath("//button[@class='btn btn-success btn-xs']")).click();
 		Thread.sleep(1000);
 	}
+
 	public static void main(String[] args) throws InterruptedException {
 		@SuppressWarnings("unused")
 		Base base = new Base();
